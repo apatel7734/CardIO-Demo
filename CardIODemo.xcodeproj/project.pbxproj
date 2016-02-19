@@ -15,6 +15,7 @@
 		4835A8241C76829A0078B38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4835A8221C76829A0078B38B /* LaunchScreen.storyboard */; };
 		4835A82F1C76829A0078B38B /* CardIODemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4835A82E1C76829A0078B38B /* CardIODemoTests.swift */; };
 		4835A83A1C76829A0078B38B /* CardIODemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4835A8391C76829A0078B38B /* CardIODemoUITests.swift */; };
+		4835A84B1C7696A00078B38B /* CustomScanCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4835A84A1C7696A00078B38B /* CustomScanCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		4835A8391C76829A0078B38B /* CardIODemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardIODemoUITests.swift; sourceTree = "<group>"; };
 		4835A83B1C76829A0078B38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4835A8471C768BB40078B38B /* CardIODemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardIODemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		4835A84A1C7696A00078B38B /* CustomScanCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScanCardViewController.swift; sourceTree = "<group>"; };
 		A0BF7DDF916BBE17622C3A21 /* libPods-CardIODemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardIODemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83CF9D6DE780968914BFCB9 /* Pods-CardIODemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardIODemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardIODemo/Pods-CardIODemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 				4835A8221C76829A0078B38B /* LaunchScreen.storyboard */,
 				4835A8251C76829A0078B38B /* Info.plist */,
 				4835A8471C768BB40078B38B /* CardIODemo-Bridging-Header.h */,
+				4835A84A1C7696A00078B38B /* CustomScanCardViewController.swift */,
 			);
 			path = CardIODemo;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4835A84B1C7696A00078B38B /* CustomScanCardViewController.swift in Sources */,
 				4835A81C1C76829A0078B38B /* ViewController.swift in Sources */,
 				4835A81A1C76829A0078B38B /* AppDelegate.swift in Sources */,
 			);
